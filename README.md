@@ -1,4 +1,4 @@
-# Project Based on Maximillian Shooping App
+# Project Based on Maximillian Shopping App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
