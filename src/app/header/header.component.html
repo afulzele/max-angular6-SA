@@ -8,11 +8,11 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent" [collapse]="!isToggleCollapsed">
     <ul class="navbar-nav mr-auto">
 
-      <li class="nav-item">
-        <a class="nav-link" style="cursor:pointer" (click)="onSelect('recipe')">Recipes</a>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" style="cursor:pointer" routerLink="/recipes">Recipes</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" style="cursor:pointer" (click)="onSelect('shopping-list')">Shopping List</a>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" style="cursor:pointer" routerLink="/shopping-list">Shopping List</a>
       </li>
 
     </ul>
